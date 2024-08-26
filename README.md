@@ -16,5 +16,5 @@ The example data for the hypnograms of the two scorers and the corresponding mar
 ## Citation
 For any use of SSRC_InterscorerDifferenceGenerator please cite:
 
-Kiran K G Ravindran and Contributors, ‘SSRC_InterscorerDifferenceGenerator’, V1.0 [Computer Software]. Zenodo, Aug. 26, 2024. doi: [![DOI](https://zenodo.org/badge/847660774.svg)](https://zenodo.org/doi/10.5281/zenodo.13374209)
+Kiran K G Ravindran, ‘SSRC_InterscorerDifferenceGenerator’, V1.0 [Computer Software]. Zenodo, Aug. 26, 2024. doi: [![DOI](https://zenodo.org/badge/847660774.svg)](https://zenodo.org/doi/10.5281/zenodo.13374209)
 
