@@ -1,4 +1,4 @@
-# SSRC_InterscorerDifferenceGenerator - Example Code for creating the interscorer difference in sleep profile or hypnogram created by two Scorers
+# SSRC_InterscorerDifferenceGenerator - Example Code for determining the interscorer difference between the sleep profile or hypnogram created by two Scorers
 
 **Licence:**  
 SSRC_InterscorerDifferenceGenerator Copyright (C) 2024 Kiran K G Ravindran. Refer to the License.txt for more details.
