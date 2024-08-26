@@ -11,7 +11,7 @@ This requires the sleep profile or hypnogram created by two Scorers and a marker
 Matlab 2021 or above
 
 ## Example Data
-The example data for the hypnograms of the two scorers and the corresponding marker file can be found in: [exampledata](https://github.com/KiranKGR/SSRC_InterscorerDifferenceGenerator/tree/b506ea61ac68232449824155ee6347addf1230a7/exampledata)
+The example data for the hypnograms of the two scorers and the corresponding marker file can be found in: [exampledata](https://github.com/KiranKGR/SSRC_InterscorerDifferenceGenerator/tree/3ec8351300805a2a1426fec6dda29dd9caa51f48/exampledata)
 
 ## Citation
 For any use of SSRC_InterscorerDifferenceGenerator please cite:
