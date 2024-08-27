@@ -70,17 +70,13 @@ for i=1:length(Marker_files)
     per_diff=(Num_diff/Num_label)*100;
     %
     %% Printing into a excel sheet
-    Stage_label={'N3','N2','N1','R','W','A'};
+    Stage_label={'N3','N2','N1','REM','Wake','A'};
+    Stage_num=[1 2 3 4 5 6];
+    M=dictionary(Stage_num,Stage_label);
     Scorer1_label=S1_label(Diff_index);
-    Scorer1_string=strings(length(Scorer1_label),1);
-    Scorer1_string(Scorer1_label==1)=string(Stage_label{1});Scorer1_string(Scorer1_label==2)=Stage_label{2};
-    Scorer1_string(Scorer1_label==3)=Stage_label{3};Scorer1_string(Scorer1_label==4)=Stage_label{4};
-    Scorer1_string(Scorer1_label==5)=Stage_label{5};Scorer1_string(Scorer1_label==6)=Stage_label{6};
+    Scorer1_string=string(M(Scorer1_label));
     Scorer2_label=S2_label(Diff_index);
-    Scorer2_string=strings(length(Scorer2_label),1);
-    Scorer2_string(Scorer2_label==1)=string(Stage_label{1});Scorer2_string(Scorer2_label==2)=Stage_label{2};
-    Scorer2_string(Scorer2_label==3)=Stage_label{3};Scorer2_string(Scorer2_label==4)=Stage_label{4};
-    Scorer2_string(Scorer2_label==5)=Stage_label{5};Scorer2_string(Scorer2_label==6)=Stage_label{6};
+    Scorer2_string=string(M(Scorer2_label));
     time=(time_vec_common(Diff_index));
     [y,m,d] = ymd(time);
     [h,mm,s] = hms(time);
